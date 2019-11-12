@@ -1,0 +1,16 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/10/17 08:58:40:5840 - [DBUG]  Found element by Xpath : //span[contains(text(),'Account & Lists')][1]                                                                                       
+
+2019/10/17 08:58:40:5840 - [INFO] - [INFO] STEP 1:Successfully Navigated to Robo Advisor website                                                                                       
+
+2019/10/17 08:58:41:5841 - [DBUG]  Found element by Xpath : //span[contains(text(),'Account & Lists')][1]                                                                                       
+
+2019/10/17 08:58:41:5841 - [INFO] - [INFO] STEP 3:Successfully validated Amazon Landing Page                                                                                       
+
+2019/10/17 08:58:42:5842 - [DBUG]  Found element by Xpath : //span[contains(text(),'Account & Lists')][1]                                                                                       
+
+2019/10/17 08:58:42:5842 - [DBUG]  Found element by Xpath : //span[contains(text(),'Account & Lists')][1]                                                                                       
+
+2019/10/17 08:58:42:5842 - [DBUG] Clicked element by Xpath : //span[contains(text(),'Account & Lists')][1]                                                                                       

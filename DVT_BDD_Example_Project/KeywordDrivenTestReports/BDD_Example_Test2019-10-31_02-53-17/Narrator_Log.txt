@@ -1,0 +1,6 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/10/31 14:53:29:5329 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/10/31 14:53:29:5329 - [INFO] - [INFO] STEP 1:Successfully Navigated to EasiPlus Quote.                                                                                       

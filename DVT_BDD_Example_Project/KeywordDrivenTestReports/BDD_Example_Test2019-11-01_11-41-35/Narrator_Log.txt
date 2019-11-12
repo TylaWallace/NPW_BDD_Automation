@@ -1,0 +1,52 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/01 11:41:46:4146 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 11:41:46:4146 - [INFO] - [INFO] STEP 1:Successfully Navigated to EasiPlus Quote.                                                                                       
+
+2019/11/01 11:41:46:4146 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 11:41:46:4146 - [INFO] - [INFO] STEP 3:Successfully validated EasiPlus Quote PreDEV Landing Page                                                                                       
+
+2019/11/01 11:41:47:4147 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 11:41:47:4147 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 11:41:47:4147 - [DBUG] Clicked element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 11:41:47:4147 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/01 11:41:47:4147 - [INFO] - [INFO] STEP 5:Successfully clicked Select Cover 'Me & My Direct Family'                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/01 11:41:48:4148 - [INFO] - [INFO] STEP 7:Successfully Validated 'Who Do You Want To Cover' Header.                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG] Clicked element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 11:41:48:4148 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 11:41:49:4149 - [DBUG] Clicked element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 11:41:49:4149 - [INFO] - [INFO] STEP 9:Successfully Selected Myself From DropDown                                                                                       
+
+2019/11/01 11:41:49:4149 - [EROR] Error scrolling to element - //button//span[contains(text(),'CLEAR')] - [Ljava.lang.StackTraceElement;@759de304                                                                                       
+
+2019/11/01 11:41:49:4149 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 11:41:49:4149 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 11:41:49:4149 - [DBUG] Entered Text of: 27 to: //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 11:41:49:4149 - [DBUG]  Found element by Xpath : //div[@class='slider-container']//input                                                                                       
+
+2019/11/01 11:41:59:4159 - [DBUG]  Found element by Xpath : //div[@class='slider-container']//input                                                                                       
+
+2019/11/01 11:41:59:4159 - [DBUG]  Clicked element by Xpath : //div[@class='slider-container']//input                                                                                       

@@ -1,0 +1,4 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/06 10:40:26:4026 - [EROR] Reached TimeOut whilst waiting for element by Xpath '//strong[contains(text(),'Me & My Direct Family')]//..//..//..//..//..//div[@class='om-ez-quote-tab-card-button-wrapper']//span//om-button-selector//span//label[@for='1'][contains(text(),'Select cover')]'                                                                                       

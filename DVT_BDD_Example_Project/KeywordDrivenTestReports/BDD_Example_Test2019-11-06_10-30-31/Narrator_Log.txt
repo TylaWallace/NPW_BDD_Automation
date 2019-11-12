@@ -1,0 +1,4 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/06 10:31:35:3135 - [EROR] Reached TimeOut whilst waiting for element by Xpath '//label[@for='1'][contains(text(),'Select cover')]'                                                                                       

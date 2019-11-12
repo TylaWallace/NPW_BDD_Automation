@@ -1,0 +1,66 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/06 11:22:47:2247 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/06 11:22:47:2247 - [INFO] - [INFO] STEP 1:Successfully Navigated to EasiPlus Quote.                                                                                       
+
+2019/11/06 11:22:48:2248 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/06 11:22:48:2248 - [INFO] - [INFO] STEP 3:Successfully validated EasiPlus Quote PreDEV Landing Page                                                                                       
+
+2019/11/06 11:22:48:2248 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/06 11:22:48:2248 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/06 11:22:48:2248 - [DBUG] Clicked element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/06 11:22:49:2249 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/06 11:22:49:2249 - [INFO] - [INFO] STEP 5:Successfully clicked Select Cover 'Me & My Direct Family'                                                                                       
+
+2019/11/06 11:22:49:2249 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/06 11:22:49:2249 - [INFO] - [INFO] STEP 7:Successfully Validated 'Who Do You Want To Cover' Header.                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG] Clicked element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [DBUG] Clicked element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/06 11:22:50:2250 - [INFO] - [INFO] STEP 9:Successfully Selected Myself From DropDown                                                                                       
+
+2019/11/06 11:22:51:2251 - [EROR] Error scrolling to element - //button//span[contains(text(),'CLEAR')] - [Ljava.lang.StackTraceElement;@3b4825f0                                                                                       
+
+2019/11/06 11:22:51:2251 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/06 11:22:51:2251 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/06 11:22:51:2251 - [DBUG] Entered Text of: 27 to: //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/06 11:22:51:2251 - [DBUG]  Found element by Xpath : //div[@class='slider-container']//input                                                                                       
+
+2019/11/06 11:22:51:2251 - [INFO] - [INFO] STEP 11:Successfully Entered Age and Selected Cover Slider.                                                                                       
+
+2019/11/06 11:22:52:2252 - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/06 11:22:53:2253 - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/06 11:22:53:2253 - [DBUG] Text: R22 retrieved successfully from element - //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/06 11:22:53:2253 - [INFO] - [INFO] STEP 13:Successfully Validated Premium Amount.                                                                                       
+
+2019/11/06 11:23:07:237  - [DBUG]  Found element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/06 11:23:08:238  - [DBUG]  Found element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/06 11:23:08:238  - [DBUG] Clicked element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/06 11:23:37:2337 - [EROR] Reached TimeOut whilst waiting for element by Xpath '//span[contains(text(),'Myself')]//strong'                                                                                       

@@ -1,0 +1,11 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/04 13:29:45:2945 - [EROR] Reached TimeOut whilst waiting for element by Xpath '//om-button-selector[@value='1']'                                                                                       
+
+2019/11/04 13:29:45:2945 - [EROR]  could not take screenshot - KeywordDrivenTestReports\BDD_Example_Test2019-11-04_01-29-15\1- Navigate and Validate EasiPlus Quote_2\FAILED_1 .png - Unable to get browser
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
+System info: host: 'GTC-100684', ip: '192.168.18.217', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:16092/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, platform=WINDOWS}]
+Session ID: 9d5bcc4c-a9e3-49b8-b7b8-5694fcc5e5a0                                                                                       

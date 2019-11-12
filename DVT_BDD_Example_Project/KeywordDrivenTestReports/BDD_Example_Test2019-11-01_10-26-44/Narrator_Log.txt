@@ -1,0 +1,66 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/01 10:26:55:2655 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 10:26:55:2655 - [INFO] - [INFO] STEP 1:Successfully Navigated to EasiPlus Quote.                                                                                       
+
+2019/11/01 10:26:56:2656 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 10:26:56:2656 - [INFO] - [INFO] STEP 3:Successfully validated EasiPlus Quote PreDEV Landing Page                                                                                       
+
+2019/11/01 10:26:56:2656 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 10:26:56:2656 - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 10:26:56:2656 - [DBUG] Clicked element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/01 10:26:57:2657 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/01 10:26:57:2657 - [INFO] - [INFO] STEP 5:Successfully clicked Select Cover 'Me & My Direct Family'                                                                                       
+
+2019/11/01 10:26:57:2657 - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/01 10:26:57:2657 - [INFO] - [INFO] STEP 7:Successfully Validated 'Who Do You Want To Cover' Header.                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG] Clicked element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG] Clicked element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/01 10:26:58:2658 - [INFO] - [INFO] STEP 9:Successfully Selected Myself From DropDown                                                                                       
+
+2019/11/01 10:26:58:2658 - [EROR] Error scrolling to element - //button//span[contains(text(),'CLEAR')] - [Ljava.lang.StackTraceElement;@2582b0ef                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:26:58:2658 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG] Entered Text of: 12 to: //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:26:59:2659 - [INFO] - [INFO] STEP 11:Successfully Entered Invalid Age.                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG] Text: R0 retrieved successfully from element - //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/01 10:26:59:2659 - [INFO] - [INFO] STEP 13:Successfully Validated Premium Amount.                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG]  Double-clicked element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:26:59:2659 - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:27:00:270  - [DBUG] Entered Text of: 27 to: //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/01 10:27:27:2727 - [INFO] - [INFO] STEP 15:Successfully Entered Invalid Age.                                                                                       

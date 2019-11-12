@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8023849000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD_Step_Definitions.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 8060500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NPW_Step_Definitions.before(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "1- Navigate and Validate EasiPlus Quote",
+        "description": "",
+        "id": "easiplus-quote;1--navigate-and-validate-easiplus-quote;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 801233300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BDD_Step_Definitions.After()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NPW_Step_Definitions.After()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12507953300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to EasiPlus Quote PreDEV",
+            "match": {
+              "location": "NPW_Step_Definitions.i_have_navigated_to_EasiPlus_Quote_PreDEV()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445532300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "EasiPlus Quote PreDEV Page loads",
+            "match": {
+              "location": "NPW_Step_Definitions.easiplus_Quote_PreDEV_Page_loads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1104970900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click Select Cover Me and My Direct Family",
+            "match": {
+              "location": "NPW_Step_Definitions.click_Select_Cover_Me_and_My_Direct_Family()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 341108800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Who do you want to cover Header Loads",
+            "match": {
+              "location": "NPW_Step_Definitions.who_do_you_want_to_cover_Header_Loads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 887664200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select Myself from the Select Who You Want to Cover dropdown",
+            "match": {
+              "location": "NPW_Step_Definitions.select_Myself_from_the_Select_Who_You_Want_to_Cover_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100740900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#When entering an \u003cInvalidAge\u003e"
+              },
+              {
+                "line": 10,
+                "value": "#Then the Premium amount remains \"R0\" and an Error message is displayed"
+              }
+            ],
+            "line": 11,
+            "name": "entering a \"27\" and  selecting the \"R25000\" from the slider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "27",
+                  "offset": 12
+                },
+                {
+                  "val": "R25000",
+                  "offset": 36
+                }
+              ],
+              "location": "NPW_Step_Definitions.entering_a_and_selecting_the_from_the_slider(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1676086900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"R80\" amount is calculated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "R80",
+                  "offset": 1
+                }
+              ],
+              "location": "NPW_Step_Definitions.amount_is_calculated(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985690600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicking Add To Cover",
+            "match": {
+              "location": "NPW_Step_Definitions.clicking_Add_To_Cover()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1712358300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"R80\" is added to Quote Summary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "R80",
+                  "offset": 1
+                }
+              ],
+              "location": "NPW_Step_Definitions.is_added_to_Quote_Summary(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 607838600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicking the Dropdown icon",
+            "match": {
+              "location": "NPW_Step_Definitions.clicking_the_Dropdown_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the Quote Summary is minimized or maximized",
+            "match": {
+              "location": "NPW_Step_Definitions.the_Quote_Summary_is_minimized_or_maximized()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "EasiPlus Quote",
+    "description": "",
+    "id": "easiplus-quote",
+    "keyword": "Feature",
+    "uri": "Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_Quote_PreDEV.feature"
+  }
+]

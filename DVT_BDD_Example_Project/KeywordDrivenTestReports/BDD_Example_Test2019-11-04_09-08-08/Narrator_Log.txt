@@ -1,0 +1,86 @@
+
+                         -- NARRATOR LOG FILE --                                                                                       
+
+2019/11/04 09:08:28:828  - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/04 09:08:28:828  - [INFO] - [INFO] STEP 1:Successfully Navigated to EasiPlus Quote.                                                                                       
+
+2019/11/04 09:08:29:829  - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/04 09:08:29:829  - [INFO] - [INFO] STEP 3:Successfully validated EasiPlus Quote PreDEV Landing Page                                                                                       
+
+2019/11/04 09:08:29:829  - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/04 09:08:29:829  - [DBUG]  Found element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/04 09:08:30:830  - [DBUG] Clicked element by Xpath : //om-button-selector[@value='1']                                                                                       
+
+2019/11/04 09:08:30:830  - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/04 09:08:30:830  - [INFO] - [INFO] STEP 5:Successfully clicked Select Cover 'Me & My Direct Family'                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG]  Found element by Xpath : //strong[contains(text(),'Who')]                                                                                       
+
+2019/11/04 09:08:31:831  - [INFO] - [INFO] STEP 7:Successfully Validated 'Who Do You Want To Cover' Header.                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG]  Found element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG] Clicked element by Xpath : //li//span[contains(text(),'Choose from dropdown')]                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/04 09:08:31:831  - [DBUG]  Found element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/04 09:08:32:832  - [DBUG] Clicked element by Xpath : //li[contains(text(),'Myself')]                                                                                       
+
+2019/11/04 09:08:32:832  - [INFO] - [INFO] STEP 9:Successfully Selected Myself From DropDown                                                                                       
+
+2019/11/04 09:08:32:832  - [EROR] Error scrolling to element - //button//span[contains(text(),'CLEAR')] - [Ljava.lang.StackTraceElement;@1bfe3203                                                                                       
+
+2019/11/04 09:08:32:832  - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/04 09:08:32:832  - [DBUG]  Found element by Xpath : //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/04 09:08:33:833  - [DBUG] Entered Text of: 27 to: //input[@placeholder='Age']//..//input                                                                                       
+
+2019/11/04 09:08:33:833  - [DBUG]  Found element by Xpath : //div[@class='slider-container']//input                                                                                       
+
+2019/11/04 09:08:33:833  - [INFO] - [INFO] STEP 11:Successfully Entered Age and Selected Cover Slider.                                                                                       
+
+2019/11/04 09:08:33:833  - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/04 09:08:34:834  - [DBUG]  Found element by Xpath : //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/04 09:08:34:834  - [DBUG] Text: R22 retrieved successfully from element - //h2//strong//span[@class='premium']                                                                                       
+
+2019/11/04 09:08:34:834  - [INFO] - [INFO] STEP 13:Successfully Validated Premium Amount.                                                                                       
+
+2019/11/04 09:08:35:835  - [DBUG]  Found element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/04 09:08:35:835  - [DBUG]  Found element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/04 09:08:35:835  - [DBUG] Clicked element by Xpath : //button//span[contains(text(),'ADD TO COVER')]                                                                                       
+
+2019/11/04 09:08:35:835  - [DBUG]  Found element by Xpath : //span[contains(text(),'Myself')]//strong                                                                                       
+
+2019/11/04 09:08:35:835  - [INFO] - [INFO] STEP 15:Successfully Clicked ADD TO COVER Button.                                                                                       
+
+2019/11/04 09:08:36:836  - [DBUG]  Found element by Xpath : //span[contains(text(),'Myself')]//strong                                                                                       
+
+2019/11/04 09:08:36:836  - [DBUG]  Found element by Xpath : //p[contains(text(),'Your Funeral Cover could cost')]//..//p//strong                                                                                       
+
+2019/11/04 09:08:37:837  - [DBUG]  Found element by Xpath : //p[contains(text(),'Your Funeral Cover could cost')]//..//p//strong                                                                                       
+
+2019/11/04 09:08:37:837  - [DBUG] Text: R22 retrieved successfully from element - //p[contains(text(),'Your Funeral Cover could cost')]//..//p//strong                                                                                       
+
+2019/11/04 09:08:37:837  - [INFO] - [INFO] STEP 17:Successfully Validated Quote Summary Cover Total Amount.                                                                                       
+
+2019/11/04 09:08:37:837  - [DBUG]  Found element by Xpath : //span[@class='button-icon-wrapper']//om-icon                                                                                       
+
+2019/11/04 09:08:37:837  - [DBUG]  Found element by Xpath : //span[@class='button-icon-wrapper']//om-icon                                                                                       
+
+2019/11/04 09:08:37:837  - [DBUG] Clicked element by Xpath : //span[@class='button-icon-wrapper']//om-icon                                                                                       
+
+2019/11/04 09:08:37:837  - [INFO] - [INFO] STEP 19:Successfully Clicked Quote Aummary Dropdown Icon.                                                                                       
