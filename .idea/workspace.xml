@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6ac6eba-982f-4a1c-b929-76c71499343f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/NPW_EasiPlus_PageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_EasiPlus_QuoteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/NPW_Step_Definitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_Quote.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/FinacialModels/FinancialModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/QTest_DAO/Execution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/buyPlan/buyPlanObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/common/userCRUDplan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/common/userProfileCRUD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/pausePlanPayment/userPlanPausePaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/performEkyc/registerUsedData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/registerUser/registerUserData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/updatePlanPayment/userPlanUpdatePaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/userPlanPausePaymentRequest/userPlanPausePaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/RequestObjs/verifyBankDetails/bankDetailsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundAssetList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundGeographyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundHoldingList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundNavDetailsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundSectorList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundYearlyReturnsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Funds_Information/fundsResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/PortSecuritiesList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portAssetList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portConstraintList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portWeightsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/Portfolio_Information/portfolioResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/VerifyBankDetails/bankResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/addPlanToCart/cartAddPlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/addProfile/profileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/bankMasterData/bankBranchesData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/bankMasterData/bankNamesData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/bankMasterData/bankReferenceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/buyFirstPlan/basicResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/buyPlan/basicResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/checkUserExist/checkUserExistResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/checkUserExist/userDetailsResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/common/userCRUDplan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/common/userProfileCRUD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/contactAdvisor/contactAdvisorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/countriesMasterData/countriesReferenceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/createPlan/UserCreatePlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/deleteCartPlan/userDeleteCartPlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/deletePlan/userDeletePlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/documents/userDocumentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getAllPlans/getAllPlansResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getGuestID/GuestResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanAlerts/planAlertsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanAlerts/planAlertsResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanAlerts/rebalanceObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanHoldings/planHoldingsResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanHoldings/planHoldingsReturnObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanHoldings/userGetPlanHoldingsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanInputsAndProductRecommendations/userGetAllPlansInputsAndRecommendations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanInputsAndProductRecommendations/userGetPlanInputsAndRecommendations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanProgress/userGetPlanProgressResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanProjections/projectionPlanContributionsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanProjections/projectionPlanGraphsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanProjections/userProjectionsPlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanRiskProfile/listQuestionsAnswersResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanRiskProfile/questionAnswerArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanTransactions/planTransactionsResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getPlanTransactions/userGetPlanTransactionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getProductTaxation/projectionPlanTaxRARecommendation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getProductTaxation/projectionPlanTaxRecommendation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getProductTaxation/projectionPlanTaxTFIRecommendation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getProductTaxation/userProjectionsPlanTaxResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getRiskQuestions/listQuestionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/getRiskQuestions/questionsOptionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/login/loginUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/pausePlanPayment/basicResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/performEkyc/ekycResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/performEkyc/userDetailsResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/addressData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/maritalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/natureOfPersonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/occupationData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/partyStatusData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/profileReferenceResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/sourceFundData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/profileMasterData/titleData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/registerUser/registerUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/retirementSafetyIndex/retirementSafetyIndexResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/sendPlanInputsEmail/planSendEmailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/updatePlan/userUpdatePlanResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/updatePlanPayment/basicResponseObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/ResponseObjs/updateProfile/profileResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/WealthObjects_DAO/_WealthObjectsAPIUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/GmailPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/GmailPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/NedbankPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/BDDPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/ChooseAGoalFeature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/Nedbank_ChooseAGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NeedsAnalysisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/BDDExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/RoboAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/API_step_definitions/Nedbank_WO_API_StepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/Jira/Needs Analysis - Education.feature" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/BDD Example - Online Purchases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/Jira/Needs Analysis - Invest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/Jira/Needs Analysis - Personal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/Jira/Needs Analysis - Retirement.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/NeedsAnalysis/Needs Analysis - Education - Negative.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/NeedsAnalysis/Needs Analysis - Education.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/NeedsAnalysis/Needs Analysis - Invest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/NeedsAnalysis/Needs Analysis - Personal.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/NeedsAnalysis/Needs Analysis - Retirement.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/API Feature - All Features.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - addPlanToCart.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - checkUserExist.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - createPlan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - deleteCartPlan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - deletePlan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getAllPlans.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getCartPlans.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getFundsInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getGuestID.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getPlanInputs.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getPlanProjections.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - getPortfolioInfo.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Features/WealthObjectsAPIs/SingleFeatures/API Feature - updatePlan.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/Nedbank_Step_Definitions/Nedbank_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/BDD_Step_Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/RunAllCucumberSuites_UpdateJiraResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/RunCucumberNegativeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_EasiPlus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/RunCucumberScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/RunCucumberSmokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDSmokeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/RunRoboAPIScripts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/SampleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/SampleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/step_definitions/Nedbank_API_Steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/Nedbank_RoboAdvisor/step_definitions/SampleStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/TestSuites/FinancialModelUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/TestSuites/siluliSandbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/DVT_BDD_Example_Project/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/unit-tests/nedbank_roboadvisor/features/jira/Needs_Analysis_-_Education.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/unit-tests/nedbank_roboadvisor/features/jira/Needs_Analysis_-_Invest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DVT_BDD_Example_Project/unit-tests/nedbank_roboadvisor/features/jira/Needs_Analysis_-_Personal.feature" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DVT_BDD_Example_Project" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1SHiby7I0XTJwzeT96DMBkRBomv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BDD Example - Online Purchases.feature" type="substepsFeature" factoryName="Substeps Feature" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="model">
+        <SubstepsRunnerConfigurationModel>
+          <option name="classPathString" />
+          <option name="homePath" />
+          <option name="modulePath" value="$PROJECT_DIR$/.idea/DVT_BDD_Example_Project-20191015T233531Z-001.iml" />
+          <option name="myListener" />
+          <option name="nonStrictKeywordPrecedence" />
+          <option name="pathToFeature" value="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/BDD Example - Online Purchases.feature" />
+          <option name="scenarioName" />
+          <option name="stepImplentationClassNames" />
+          <option name="strict" value="false" />
+          <option name="subStepDefinitionDirectory" />
+          <option name="tags" />
+          <option name="versionString" />
+          <option name="workingDir" value="$PROJECT_DIR$/.idea" />
+        </SubstepsRunnerConfigurationModel>
+      </option>
+      <option name="classPathString" />
+      <option name="homePath" />
+      <option name="modulePath" value="$PROJECT_DIR$/.idea/DVT_BDD_Example_Project-20191015T233531Z-001.iml" />
+      <option name="myListener" />
+      <option name="nonStrictKeywordPrecedence" />
+      <option name="pathToFeature" value="$PROJECT_DIR$/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/BDD Example - Online Purchases.feature" />
+      <option name="scenarioName" />
+      <option name="stepImplentationClassNames" />
+      <option name="strict" value="false" />
+      <option name="subStepDefinitionDirectory" />
+      <option name="tags" />
+      <option name="versionString" />
+      <option name="workingDir" value="$PROJECT_DIR$/.idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Substeps Feature.BDD Example - Online Purchases.feature" />
+        <item itemvalue="Substeps Feature.BDD Example - Online Purchases.feature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6ac6eba-982f-4a1c-b929-76c71499343f" name="Default Changelist" comment="" />
+      <created>1571226998209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571226998209</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
