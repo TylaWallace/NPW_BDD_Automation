@@ -3,23 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/Enums.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/BDD_Step_Definitions.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_Quote.feature</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_Quote_PreDEV.feature</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_EasiPlus_QuoteTest_PreDEV.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/GmailPageObject.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/BDDExampleTest.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_EasiPlus_QuoteTest.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/NPW_Step_Definitions.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_EasiPlus.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/NPW_EasiPlus_PageObjects.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_PreDEV.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/BDD%20Example%20-%20Online%20Purchases.feature</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/BDDPageObjects.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Utilities/SeleniumDriverUtility.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts.java</file>
-            <file>file:/C:/DVT_BDD_Example_Project-20191015T233531Z-001/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDSmokeTests.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Entities/Enums.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/NPW_EasiPlus_PageObjects.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/NPW_CMB_PageObjects.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/PageObjects/BDDPageObjects.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_EasiPlus_QuoteTest_PreDEV.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_EasiPlus_QuoteTest.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Source/KeywordDrivenTestFramework/Testing/TestClasses/NPW_CMBTest.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_PreDEV.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_EasiPlus.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/RunBDDScripts_CMB.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/NPW_Step_Definitions.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/BDD_Step_Definitions/BDD_Step_Definitions.java</file>
+            <file>file:/C:/NPW_BDD_Automation/DVT_BDD_Example_Project/Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_CMB.feature</file>
         </group>
     </open-files>
 </project-private>

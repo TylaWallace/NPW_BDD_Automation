@@ -45,7 +45,7 @@ public class NPW_EasiPlus_PageObjects
     
     public static String EPQ_WhoDoYouWantToCover_DropDown()
     {
-        return "//li//span[contains(text(),'Choose from dropdown')]";
+        return "//input[@placeholder='Choose from dropdown']//..";
     }
     
     public static String EPQ_WhoDoYouWantToCover_DropDown_Myself()
@@ -115,12 +115,12 @@ public class NPW_EasiPlus_PageObjects
     
     public static String EPQ_PersonalDetials_Title_Dropdown()
     {
-        return "//om-dropdown-field[@placeholder='Title']//div//div//ul";
+        return "//om-dropdown-field[@placeholder='Title']//div//div//div";
     }
     
     public static String EPQ_PersonalDetails_Title_Option(String arg1)
     {
-        return "//li[@value='"+arg1+"']";
+        return "//li[contains(text(),'"+arg1+"')]";
     }
     
     public static String EPQ_PersonalDetails_FirstName_Input()
@@ -245,17 +245,17 @@ public class NPW_EasiPlus_PageObjects
     
     public static String EPQ_FamilyDetails_Choose_Dropdown()
     {
-        return "//om-dropdown-field[@placeholder='Choose from dropdown']//div//div//ul";
+        return "//om-dropdown-field[@placeholder='Choose from dropdown']//div//div//div";
     }
     
     public static String EPQ_FamilyDetails_Title_Dropdown()
     {
-        return "//om-dropdown-field[@placeholder='Title']//div//div//ul";
+        return "//om-dropdown-field[@placeholder='Title']//div//div//div";
     }
     
     public static String EPQ_FamilyDetails_Dropdown_Option(String arg1)
     {
-        return "//li[@value='"+arg1+"']";
+        return "//li[contains(text(),'"+arg1+"')]";
     }
     
     public static String EPQ_FamilyDetails_FirstName_Input()
