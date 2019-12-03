@@ -170,7 +170,9 @@ public class Enums {
         QA("https://www.amazon.com/","https://10.74.10.10//"),
         EasiPlus_Quote("https://www.amazon.com/","https://10.74.10.10//"),
         EasiPlus_Quote_DEV("https://new-public-web.demo.nonprod.my.oldmutual.co.za/easiquote","https://10.74.10.10//"),
-        EasiPlus_Quote_PreDEV("http://localhost:3000/easiquote","https://10.74.10.10//");
+        CMB_DEV("https://new-public-web.demo.nonprod.my.oldmutual.co.za/call-me-back-test","https://10.74.10.10//"),
+        EasiPlus_Quote_PreDEV("http://localhost:3000/easiquote","https://10.74.10.10//"),
+        EasiPlus_App("https://new-public-web-qa.nonprod.digitalplatform.oldmutual.co.za/easiquote","https://10.74.10.10//");
         
        
    

@@ -173,7 +173,7 @@ public class NPW_EasiPlus_QuoteTest_PreDEV extends BaseClass
     {
         if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Premium_Amount()))
         {
-            return "Failed to wait for Who Do You Want To Cover DropDown.";
+            return "Failed to wait for Premium Amount.";
         }
         
         String Premium = SeleniumDriverInstance.retrieveTextByXpath(NPW_EasiPlus_PageObjects.EPQ_Premium_Amount());
@@ -230,7 +230,7 @@ public class NPW_EasiPlus_QuoteTest_PreDEV extends BaseClass
     {
         if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Premium_Amount()))
         {
-            return "Failed to wait for Who Do You Want To Cover DropDown.";
+            return "Failed to wait for Premium Amount 2.";
         }
         
         pause(1000);
@@ -327,6 +327,565 @@ public class NPW_EasiPlus_QuoteTest_PreDEV extends BaseClass
         }
     
         narrator.stepPassedWithScreenShot("Successfully validated Amazon Login Page");
+        
+        return null;
+    
+    }
+    
+    public String clicking_the_Buy_Online_button()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_BuyNow_Button()))
+        {
+            return "Failed to wait for EPQ Buy Now Button.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_BuyNow_Button()))
+        {
+            return "Failed to click EPQ Buy Now Button.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully Clicked EPQ Buy Now Button.");
+        
+        return null;
+    
+    }
+    
+    public String the_User_is_redirected_to_the_EasiPlus_Application()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_KeepHandy_Header()))
+        {
+            return "Failed to wait for EPQ Keep the following Handy Header.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully Navigated to EPQ App.");
+        
+        return null;
+    
+    }
+    
+    public String click_continue_button()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Continue_Button()))
+        {
+            return "Failed to wait for EPQ Continue Button.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_Continue_Button()))
+        {
+            return "Failed to click EPQ Continue Button.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully clicked EPQ Continue Button.");
+        
+        return null;
+    
+    }
+    
+    public String epa_Personal_Details_Page_Loads()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Peronal_Details_Header()))
+        {
+            return "Failed to wait for EPQ Personal Details Header.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully navigated to EPQ Personal Details.");
+        
+        return null;
+    
+    }
+    
+    public String select_a_Title_for_Personal_Details(String arg1)
+    {
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetials_Title_Dropdown()))
+        {
+            return "Failed to wait for Title DropDown.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetials_Title_Dropdown()))
+        {
+            return "Failed to click Title Dropdown.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Title_Option(arg1)))
+        {
+            return "Failed to wait for Title DropDown Option "+arg1;
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Title_Option(arg1)))
+        {
+            return "Failed to click Title DropDown Option "+arg1;
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully Selected "+arg1+" From DropDown");
+        
+        return null;
+    }
+    
+    public String enter_FirstName_for_Personal_Detail(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_FirstName_Input()))
+        {
+            return "Failed to wait for EPQ Personal Details First Name Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_FirstName_Input()))
+        {
+            return "Failed to click EPQ Personal Details First Name Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_FirstName_Input_Field()))
+        {
+            return "Failed to wait for EPQ Personal Details First Name Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_FirstName_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Personal Details First Name Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Personal Details First Name Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_Surname_for_Personal_Detail(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Surname_Input()))
+        {
+            return "Failed to wait for EPQ Personal Details Surname Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Surname_Input()))
+        {
+            return "Failed to click EPQ Personal Details Surname Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Surname_Input_Field()))
+        {
+            return "Failed to wait for EPQ Personal Details Surname Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Surname_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Personal Details Surname Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Personal Details Surname Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_ID_for_Personal_Detail(String arg1)
+    {
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Email_Input());
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ID_Input()))
+        {
+            return "Failed to wait for EPQ Personal Details ID Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ID_Input()))
+        {
+            return "Failed to click EPQ Personal Details ID Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ID_Input_Field()))
+        {
+            return "Failed to wait for EPQ Personal Details ID Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ID_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Personal Details ID Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Personal Details ID Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_ContactNo_for_Personal_Detail(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ContactNo_Input()))
+        {
+            return "Failed to wait for EPQ Personal Details ContactNo Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ContactNo_Input()))
+        {
+            return "Failed to click EPQ Personal Details ContactNo Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ContactNo_Input_Field()))
+        {
+            return "Failed to wait for EPQ Personal Details ContactNo Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_ContactNo_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Personal Details ContactNo Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Personal Details ContactNo Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_Email_for_Personal_Detail(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Email_Input()))
+        {
+            return "Failed to wait for EPQ Personal Details Email Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Email_Input()))
+        {
+            return "Failed to click EPQ Personal Details Email Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Email_Input_Field()))
+        {
+            return "Failed to wait for EPQ Personal Details Email Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_PersonalDetails_Email_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Personal Details Email Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Personal Details Email Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String epa_Residential_Address_Page_Loads()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_Residential_Address_Header()))
+        {
+            return "Failed to wait for EPQ Residential Address Header.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully navigated to EPQ Residential Address.");
+        
+        return null;
+    
+    }
+    
+    public String enter_StreetNo_for_Residential_Address(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetNo_Input()))
+        {
+            return "Failed to wait for EPQ Residential Address StreetNo Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetNo_Input()))
+        {
+            return "Failed to click EPQ Residential Address StreetNo Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetNo_Input_Field()))
+        {
+            return "Failed to wait for EPQ Residential Address StreetNo Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetNo_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Residential Address StreetNo Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Residential Address StreetNo Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_StreetName_for_Residential_Address(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetName_Input()))
+        {
+            return "Failed to wait for EPQ Residential Address StreetName Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetName_Input()))
+        {
+            return "Failed to click EPQ Residential Address StreetName Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetName_Input_Field()))
+        {
+            return "Failed to wait for EPQ Residential Address StreetName Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_StreetName_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Residential Address StreetName Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Residential Address StreetName Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_Suburb_for_Residential_Address(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_Suburb_Input()))
+        {
+            return "Failed to wait for EPQ Residential Address Suburb Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_Suburb_Input()))
+        {
+            return "Failed to click EPQ Residential Address Suburb Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_Suburb_Input_Field()))
+        {
+            return "Failed to wait for EPQ Residential Address Suburb Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_Suburb_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Residential Address Suburb Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Residential Address Suburb Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_City_for_Residential_Address(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_City_Input()))
+        {
+            return "Failed to wait for EPQ Residential Address City Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_City_Input()))
+        {
+            return "Failed to click EPQ Residential Address City Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_City_Input_Field()))
+        {
+            return "Failed to wait for EPQ Residential Address City Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_City_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Residential Address City Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Residential Address City Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String enter_PostalCode_for_Residential_Address(String arg1)
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_PostalCode_Input()))
+        {
+            return "Failed to wait for EPQ Residential Address PostalCode Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_PostalCode_Input()))
+        {
+            return "Failed to click EPQ Residential Address PostalCode Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_PostalCode_Input_Field()))
+        {
+            return "Failed to wait for EPQ Residential Address PostalCode Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_ResidentialAddress_PostalCode_Input_Field(), arg1 ))
+        {
+            return "Failed to enter text at EPQ Residential Address PostalCode Input Field.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully entered text at EPQ Residential Address PostalCode Input Field.");
+        
+        return null;
+    
+    }
+    
+    public String family_Member_Details_Page_Load()
+    {
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyMemberDetails_Header()))
+        {
+            return "Failed to wait for EPQ Family Member Details.";
+        }
+    
+        narrator.stepPassedWithScreenShot("Successfully navigated to EPQ Family Member Details.");
+        
+        return null;
+    
+    }
+    
+    public String add_a_Parent_Dependant(String ParentDependent, String Title, String DependentFirstName, String Surname, String DependentDOB)
+    {
+        
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_MyParentsInlaws_Header());
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_MyParentsInlaws_AddDependent_Button()))
+        {
+            return "Failed to wait for EPQ My Parents & In-laws Add Dependent Button.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_MyParentsInlaws_AddDependent_Button()))
+        {
+            return "Failed to click EPQ My Parents & In-laws Add Dependent Button.";
+        }
+        
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_MyParentsInlaws_Header());
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Choose_Dropdown()))
+        {
+            return "Failed to wait for Parent/In-law DropDown.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Choose_Dropdown()))
+        {
+            return "Failed to click Parent/In-law Dropdown.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Dropdown_Option(ParentDependent)))
+        {
+            return "Failed to wait for DropDown Option "+ParentDependent;
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Dropdown_Option(ParentDependent)))
+        {
+            return "Failed to click DropDown Option "+ParentDependent;
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Title_Dropdown()))
+        {
+            return "Failed to wait for Title DropDown.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Title_Dropdown()))
+        {
+            return "Failed to click Title Dropdown.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Dropdown_Option(Title)))
+        {
+            return "Failed to wait for DropDown Option "+Title;
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Dropdown_Option(Title)))
+        {
+            return "Failed to click DropDown Option "+Title;
+        }
+        
+         if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_FirstName_Input()))
+        {
+            return "Failed to wait for EPQ Family Details First Name Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_FirstName_Input()))
+        {
+            return "Failed to click EPQ Family Details First Name Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_FirstName_Input_Field()))
+        {
+            return "Failed to wait for EPQ Family Details First Name Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_FirstName_Input_Field(), DependentFirstName ))
+        {
+            return "Failed to enter text at EPQ Family Details First Name Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Surname_Input()))
+        {
+            return "Failed to wait for EPQ Family Details Surname Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Surname_Input()))
+        {
+            return "Failed to click EPQ Family Details Surname Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Surname_Input_Field()))
+        {
+            return "Failed to wait for EPQ Family Details Surname Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Surname_Input_Field(), Surname ))
+        {
+            return "Failed to enter text at EPQ Family Details Surname Input Field.";
+        }
+        
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_DOB_Input()))
+        {
+            return "Failed to wait for EPQ Family Details Date Of Birth Input.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_DOB_Input()))
+        {
+            return "Failed to click EPQ Family Details Date Of Birth Input.";
+        }
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_DOB_Input_Field()))
+        {
+            return "Failed to wait for EPQ Family Details Date Of Birth Input Field.";
+        }
+        
+        if (!SeleniumDriverInstance.enterTextByXpathUsingActions(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_DOB_Input_Field(), DependentDOB ))
+        {
+            return "Failed to enter text at EPQ Family Details Date Of Birth Input Field.";
+        }
+        
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_HowMuchCover_Header());
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Cover_Slider()))
+        {
+            return "Failed to click EPQ Family Cover Slider.";
+        }
+        
+        narrator.stepPassedWithScreenShot("Successfully entered Details for EPQ Parent/In-law Dependent.");
+        
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_Cover_Slider());
+        
+        if (!SeleniumDriverInstance.waitForElementByXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_SaveDependent_Button()))
+        {
+            return "Failed to wait for EPQ Family Details Save Dependent Button.";
+        }
+        
+        if (!SeleniumDriverInstance.clickElementbyXpath(NPW_EasiPlus_PageObjects.EPQ_FamilyDetails_SaveDependent_Button()))
+        {
+            return "Failed to click EPQ Family Details Save Dependent Button.";
+        }
+        
+        SeleniumDriverInstance.scrollToElement(NPW_EasiPlus_PageObjects.EPQ_FamilyMemberDetails_Header());
+    
+        narrator.stepPassedWithScreenShot("Successfully added a EPQ Parent/In-law Dependent.");
         
         return null;
     

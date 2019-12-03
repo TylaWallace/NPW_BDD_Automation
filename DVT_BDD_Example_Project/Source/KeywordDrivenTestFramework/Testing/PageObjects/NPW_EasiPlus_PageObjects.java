@@ -65,7 +65,7 @@ public class NPW_EasiPlus_PageObjects
     
     public static String EPQ_Premium_Amount()
     {
-        return "//h2//strong//span[@class='premium']";
+        return "//h3//strong//span[@class='premium']";
     }
     
     public static String EPQ_Cover_Slider()
@@ -91,6 +91,216 @@ public class NPW_EasiPlus_PageObjects
     public static String EPQ_QuoteSummary_DropdownIcon()
     {
         return "//span[@class='button-icon-wrapper']//om-icon";
+    }
+    
+    public static String EPQ_BuyNow_Button()
+    {
+        return "//*[@id=\"__layout\"]/om-page-bg-color/div/div[2]/div/om-ez-quote-page/div/div[2]/div[2]/div/om-result-card/div/div[2]/om-toast/div/div[3]/div/om-button[1]/button/span";
+    }
+    
+    public static String EPQ_KeepHandy_Header()
+    {
+        return "//strong[contains(text(),'Keep the following handy')]";
+    }
+    
+    public static String EPQ_Continue_Button()
+    {
+        return "//span[@class='om-button-text'][contains(text(),'Continue')]";
+    }
+    
+    public static String EPQ_Peronal_Details_Header()
+    {
+        return "//strong[contains(text(),\"Let's get to know you a bit better\")]";
+    }
+    
+    public static String EPQ_PersonalDetials_Title_Dropdown()
+    {
+        return "//om-dropdown-field[@placeholder='Title']//div//div//ul";
+    }
+    
+    public static String EPQ_PersonalDetails_Title_Option(String arg1)
+    {
+        return "//li[@value='"+arg1+"']";
+    }
+    
+    public static String EPQ_PersonalDetails_FirstName_Input()
+    {
+        return "//input[@placeholder='First Name(s)']";
+    }
+    
+    public static String EPQ_PersonalDetails_FirstName_Input_Field()
+    {
+        return "//span[contains(text(),'First Name(s)')]//..//input";
+    }
+    
+    public static String EPQ_PersonalDetails_Surname_Input()
+    {
+        return "//input[@placeholder='Surname']";
+    }
+    
+    public static String EPQ_PersonalDetails_Surname_Input_Field()
+    {
+        return "//span[contains(text(),'Surname')]//..//input";
+    }
+    
+    public static String EPQ_PersonalDetails_ID_Input()
+    {
+        return "//input[@placeholder='RSA ID Number']";
+    }
+    
+    public static String EPQ_PersonalDetails_ID_Input_Field()
+    {
+        return "//span[contains(text(),'RSA ID Number')]//..//input";
+    }
+    
+    public static String EPQ_PersonalDetails_ContactNo_Input()
+    {
+        return "//input[@placeholder='Contact number']";
+    }
+    
+    public static String EPQ_PersonalDetails_ContactNo_Input_Field()
+    {
+        return "//span[contains(text(),'Contact number')]//..//input";
+    }
+    
+    public static String EPQ_PersonalDetails_Email_Input()
+    {
+        return "//input[@placeholder='Email Address']";
+    }
+    
+    public static String EPQ_PersonalDetails_Email_Input_Field()
+    {
+        return "//span[contains(text(),'Email Address')]//..//input";
+    }
+    
+    public static String EPQ_Residential_Address_Header()
+    {
+        return "//strong[contains(text(),'Residential Address')]";
+    }
+    
+    public static String EPQ_ResidentialAddress_StreetNo_Input()
+    {
+        return "//input[@placeholder='Street Number']";
+    }
+    
+    public static String EPQ_ResidentialAddress_StreetNo_Input_Field()
+    {
+        return "//span[contains(text(),'Street Number')]//..//input";
+    }
+    
+    public static String EPQ_ResidentialAddress_StreetName_Input()
+    {
+        return "//input[@placeholder='Street Name']";
+    }
+    
+    public static String EPQ_ResidentialAddress_StreetName_Input_Field()
+    {
+        return "//span[contains(text(),'Street Name')]//..//input";
+    }
+    
+    public static String EPQ_ResidentialAddress_Suburb_Input()
+    {
+        return "//input[@placeholder='Suburb']";
+    }
+    
+    public static String EPQ_ResidentialAddress_Suburb_Input_Field()
+    {
+        return "//span[contains(text(),'Suburb')]//..//input";
+    }
+    
+    public static String EPQ_ResidentialAddress_City_Input()
+    {
+        return "//input[@placeholder='City']";
+    }
+    
+    public static String EPQ_ResidentialAddress_City_Input_Field()
+    {
+        return "//span[contains(text(),'City')]//..//input";
+    }
+    
+    public static String EPQ_ResidentialAddress_PostalCode_Input()
+    {
+        return "//input[@placeholder='Postal Code']";
+    }
+    
+    public static String EPQ_ResidentialAddress_PostalCode_Input_Field()
+    {
+        return "//span[contains(text(),'Postal Code')]//..//input";
+    }
+    
+    public static String EPQ_FamilyMemberDetails_Header()
+    {
+        return "//h5[contains(text(),'Family member details')]";
+    }
+    
+    public static String EPQ_MyParentsInlaws_Header()
+    {
+        return "//div[contains(text(),'My Parents & In-laws')]";
+    }
+    
+    public static String EPQ_MyParentsInlaws_AddDependent_Button()
+    {
+        return "//div[contains(text(),'My Parents & In-laws')]//..//..//div//div//div//om-button";
+    }
+    
+    public static String EPQ_FamilyDetails_Choose_Dropdown()
+    {
+        return "//om-dropdown-field[@placeholder='Choose from dropdown']//div//div//ul";
+    }
+    
+    public static String EPQ_FamilyDetails_Title_Dropdown()
+    {
+        return "//om-dropdown-field[@placeholder='Title']//div//div//ul";
+    }
+    
+    public static String EPQ_FamilyDetails_Dropdown_Option(String arg1)
+    {
+        return "//li[@value='"+arg1+"']";
+    }
+    
+    public static String EPQ_FamilyDetails_FirstName_Input()
+    {
+        return "//input[@placeholder='First Name(s)']";
+    }
+    
+    public static String EPQ_FamilyDetails_FirstName_Input_Field()
+    {
+        return "//span[contains(text(),'First Name(s)')]//..//input";
+    }
+    
+    public static String EPQ_FamilyDetails_Surname_Input()
+    {
+        return "//input[@placeholder='Surname']";
+    }
+    
+    public static String EPQ_FamilyDetails_Surname_Input_Field()
+    {
+        return "//span[contains(text(),'Surname')]//..//input";
+    }
+    
+    public static String EPQ_FamilyDetails_DOB_Input()
+    {
+        return "//input[@placeholder='dd/mm/yyyy']";
+    }
+    
+    public static String EPQ_FamilyDetails_DOB_Input_Field()
+    {
+        return "//span[contains(text(),'Date of Birth')]//..//input";
+    }
+    
+    public static String EPQ_FamilyDetails_HowMuchCover_Header()
+    {
+        return "//p[contains(text(),'Who do you want to cover')]";
+    }
+    
+    public static String EPQ_FamilyDetails_Cover_Slider()
+    {
+        return "//div[@class='slider-wrapper']//div//input";
+    }
+    
+    public static String EPQ_FamilyDetails_SaveDependent_Button()
+    {
+        return "//button//span[contains(text(),'Save Dependent')]";
     }
     
     

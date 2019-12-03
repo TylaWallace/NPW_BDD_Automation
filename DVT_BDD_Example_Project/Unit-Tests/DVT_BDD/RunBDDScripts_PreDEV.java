@@ -9,7 +9,6 @@ import static KeywordDrivenTestFramework.Core.BaseClass.currentBrowser;
 import static KeywordDrivenTestFramework.Core.BaseClass.currentEnvironment;
 import static KeywordDrivenTestFramework.Core.BaseClass.isCucumberTesting;
 import static KeywordDrivenTestFramework.Core.BaseClass.isCucumberMobileTesting;
-
 import static KeywordDrivenTestFramework.Core.BaseClass.reportDirectory;
 import KeywordDrivenTestFramework.Entities.Enums;
 import KeywordDrivenTestFramework.Entities.Enums.Environment;

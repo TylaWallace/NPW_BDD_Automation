@@ -1,8 +1,0 @@
-
-                         -- NARRATOR LOG FILE --                                                                                       
-
-2019/11/06 11:15:14:1514 - [EROR]  navigating to URL  - null                                                                                       
-
-2019/11/06 11:15:15:1515 - [EROR]  shutting down driver - null                                                                                       
-
-2019/11/06 11:15:15:1515 - [EROR]  shutting down driver - null                                                                                       

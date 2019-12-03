@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8023849000,
+              "duration": 7644367000,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 8060500,
+              "duration": 9795100,
               "status": "passed"
             },
             "match": {
@@ -23,14 +23,14 @@
             }
           }
         ],
-        "line": 22,
+        "line": 39,
         "name": "1- Navigate and Validate EasiPlus Quote",
         "description": "",
         "id": "easiplus-quote;1--navigate-and-validate-easiplus-quote;;2",
         "after": [
           {
             "result": {
-              "duration": 801233300,
+              "duration": 1301024200,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 55000,
+              "duration": 87400,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12507953300,
+              "duration": 16119029600,
               "status": "passed"
             },
             "line": 4,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 445532300,
+              "duration": 364221400,
               "status": "passed"
             },
             "line": 5,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1104970900,
+              "duration": 1407142200,
               "status": "passed"
             },
             "line": 6,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 341108800,
+              "duration": 370168300,
               "status": "passed"
             },
             "line": 7,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 887664200,
+              "duration": 658024100,
               "status": "passed"
             },
             "line": 8,
@@ -112,20 +112,10 @@
           },
           {
             "result": {
-              "duration": 1100740900,
+              "duration": 930241600,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 9,
-                "value": "#When entering an \u003cInvalidAge\u003e"
-              },
-              {
-                "line": 10,
-                "value": "#Then the Premium amount remains \"R0\" and an Error message is displayed"
-              }
-            ],
-            "line": 11,
+            "line": 9,
             "name": "entering a \"27\" and  selecting the \"R25000\" from the slider",
             "match": {
               "arguments": [
@@ -148,15 +138,15 @@
           },
           {
             "result": {
-              "duration": 1676086900,
+              "duration": 1458766800,
               "status": "passed"
             },
-            "line": 12,
-            "name": "\"R80\" amount is calculated",
+            "line": 10,
+            "name": "\"R 80\" amount is calculated",
             "match": {
               "arguments": [
                 {
-                  "val": "R80",
+                  "val": "R 80",
                   "offset": 1
                 }
               ],
@@ -169,10 +159,10 @@
           },
           {
             "result": {
-              "duration": 985690600,
+              "duration": 783889500,
               "status": "passed"
             },
-            "line": 13,
+            "line": 11,
             "name": "clicking Add To Cover",
             "match": {
               "location": "NPW_Step_Definitions.clicking_Add_To_Cover()"
@@ -181,10 +171,10 @@
           },
           {
             "result": {
-              "duration": 1712358300,
+              "duration": 1493255400,
               "status": "passed"
             },
-            "line": 14,
+            "line": 12,
             "name": "\"R80\" is added to Quote Summary",
             "match": {
               "arguments": [
@@ -196,16 +186,16 @@
               "location": "NPW_Step_Definitions.is_added_to_Quote_Summary(String)"
             },
             "matchedColumns": [
-              2
+              4
             ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 607838600,
+              "duration": 448325900,
               "status": "passed"
             },
-            "line": 15,
+            "line": 13,
             "name": "clicking the Dropdown icon",
             "match": {
               "location": "NPW_Step_Definitions.clicking_the_Dropdown_icon()"
@@ -214,13 +204,393 @@
           },
           {
             "result": {
-              "duration": 38400,
+              "duration": 24000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 14,
             "name": "the Quote Summary is minimized or maximized",
             "match": {
               "location": "NPW_Step_Definitions.the_Quote_Summary_is_minimized_or_maximized()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 471511600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicking the Buy Online button",
+            "match": {
+              "location": "NPW_Step_Definitions.clicking_the_Buy_Online_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 903222200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the User is redirected to the EasiPlus Application",
+            "match": {
+              "location": "NPW_Step_Definitions.the_User_is_redirected_to_the_EasiPlus_Application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 468145700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click continue button",
+            "match": {
+              "location": "NPW_Step_Definitions.click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 909126200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "EPA Personal Details Page Loads",
+            "match": {
+              "location": "NPW_Step_Definitions.epa_Personal_Details_Page_Loads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630197200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Select a Title \"Mrs\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mrs",
+                  "offset": 16
+                }
+              ],
+              "location": "NPW_Step_Definitions.select_a_Title_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 715994500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter FirstName \"Testy-Lee!\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testy-Lee!",
+                  "offset": 17
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_FirstName_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 743810400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "enter Surname \"NpwA\u0027uto\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NpwA\u0027uto",
+                  "offset": 15
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_Surname_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 769752000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "enter ID \"2709064800083\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2709064800083",
+                  "offset": 10
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_ID_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 680240700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "enter ContactNo \"0711110011\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0711110011",
+                  "offset": 17
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_ContactNo_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 767244800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enter Email \"TestyLeeIsATest@testemail.com\" for Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestyLeeIsATest@testemail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_Email_for_Personal_Details(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 440590700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click continue button",
+            "match": {
+              "location": "NPW_Step_Definitions.click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 896832200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "EPA Residential Address Page Loads",
+            "match": {
+              "location": "NPW_Step_Definitions.epa_Residential_Address_Page_Loads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 682570800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "enter Street Number \"14\" for Residential Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14",
+                  "offset": 21
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_Street_Number_for_Residential_Address(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 734155000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "enter Street Name \"Test Street\" for Residential Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Street",
+                  "offset": 19
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_Street_Name_for_Residential_Address(String)"
+            },
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 642356000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "enter Suburb \"Bronx\" for Residential Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bronx",
+                  "offset": 14
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_Suburb_for_Residential_Address(String)"
+            },
+            "matchedColumns": [
+              13
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 696160500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter City \"Cape Town\" for Residential Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cape Town",
+                  "offset": 12
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_City_for_Residential_Address(String)"
+            },
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 699467000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enter PostalCode \"7800\" for Residential Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7800",
+                  "offset": 18
+                }
+              ],
+              "location": "NPW_Step_Definitions.enter_PostalCode_for_Residential_Address(String)"
+            },
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 446542300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click continue button",
+            "match": {
+              "location": "NPW_Step_Definitions.click_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 990268800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Family Member Details Page Load",
+            "match": {
+              "location": "NPW_Step_Definitions.family_Member_Details_Page_Load()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3179120700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Add a Parent Dependant \"Mother\" \"Mrs\" \"Mama-Testy!\" \"NpwA\u0027uto\" \"09/06/1974\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mother",
+                  "offset": 24
+                },
+                {
+                  "val": "Mrs",
+                  "offset": 33
+                },
+                {
+                  "val": "Mama-Testy!",
+                  "offset": 39
+                },
+                {
+                  "val": "NpwA\u0027uto",
+                  "offset": 53
+                },
+                {
+                  "val": "09/06/1974",
+                  "offset": 64
+                }
+              ],
+              "location": "NPW_Step_Definitions.add_a_Parent_Dependant(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              5,
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451701800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click continue button",
+            "match": {
+              "location": "NPW_Step_Definitions.click_continue_button()"
             },
             "keyword": "Then "
           }
@@ -231,6 +601,6 @@
     "description": "",
     "id": "easiplus-quote",
     "keyword": "Feature",
-    "uri": "Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_Quote_PreDEV.feature"
+    "uri": "Unit-Tests/DVT_BDD/Features/BDD_Feature_Files/NPW_EasiPlus_App.feature"
   }
 ]

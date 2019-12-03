@@ -34,9 +34,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions
 (
         plugin = {"usage","json:target/cucumber.json","html:target/cucumber", "com.cucumber.listener.ExtentCucumberFormatter:"},
-        glue ={"DVT_BDD.NPW_Step_Definitions"},
+        glue ={"DVT_BDD.BDD_Step_Definitions"},
 
-        features ={"Unit-Tests\\DVT_BDD\\Features\\BDD_Feature_Files\\NPW_EasiPlus_Quote.feature"},
+        features ={"Unit-Tests\\DVT_BDD\\Features\\BDD_Feature_Files\\NPW_EasiPlus_App.feature"},
 
         dryRun = false,
         monochrome = false,
@@ -56,7 +56,7 @@ public class RunBDDScripts_EasiPlus
 
         isCucumberMobileTesting = true;
         
-        currentEnvironment = Environment.EasiPlus_Quote;
+        currentEnvironment = Environment.EasiPlus_App;
 
         ExtentProperties extentProperties = ExtentProperties.INSTANCE;
         

@@ -1,4 +1,0 @@
-
-                         -- NARRATOR LOG FILE --                                                                                       
-
-2019/11/04 13:27:54:2754 - [EROR] Reached TimeOut whilst waiting for element by Xpath '//om-button-selector[@value='1']'                                                                                       

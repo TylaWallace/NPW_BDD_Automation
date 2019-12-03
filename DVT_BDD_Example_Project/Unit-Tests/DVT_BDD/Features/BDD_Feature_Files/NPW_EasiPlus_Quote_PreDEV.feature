@@ -19,4 +19,4 @@ Feature: EasiPlus Quote
   
     Examples: 
       | ValidAge | CoverAmount     | Premium | InvalidAge |
-      | "27"     | "R25000"        | "R80"   | "12"       | 
+      | "27"     | "R25000"        | "R 80"   | "12"       | 
